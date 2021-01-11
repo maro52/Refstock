@@ -22,6 +22,7 @@
 		A1837B9E25AC6942003A9130 /* timeburnernormal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1837B9D25AC6942003A9130 /* timeburnernormal.ttf */; };
 		A1837BAD25AC9145003A9130 /* RefMemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837BAB25AC9145003A9130 /* RefMemoTableViewCell.swift */; };
 		A1837BAE25AC9145003A9130 /* RefMemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1837BAC25AC9145003A9130 /* RefMemoTableViewCell.xib */; };
+		A1837BC225ACA984003A9130 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1837BC125ACA984003A9130 /* crayon_1-1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		A1837B9D25AC6942003A9130 /* timeburnernormal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = timeburnernormal.ttf; path = ../../../../../Downloads/Timeburner/timeburnernormal.ttf; sourceTree = "<group>"; };
 		A1837BAB25AC9145003A9130 /* RefMemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RefMemoTableViewCell.swift; path = Refstock/RefMemoTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		A1837BAC25AC9145003A9130 /* RefMemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RefMemoTableViewCell.xib; path = Refstock/RefMemoTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		A1837BC125ACA984003A9130 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "crayon_1-1.ttf"; path = "../../../../../Downloads/crayonfont/crayon_1-1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				A1837B9D25AC6942003A9130 /* timeburnernormal.ttf */,
+				A1837BC125ACA984003A9130 /* crayon_1-1.ttf */,
 				A1837B9725AC6451003A9130 /* Data */,
 				A1837B9325AC5D02003A9130 /* Extension */,
 				A1837BAA25AC8F5C003A9130 /* Views */,
@@ -284,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1837BC225ACA984003A9130 /* crayon_1-1.ttf in Resources */,
 				A1837B4B25AB4BAD003A9130 /* LaunchScreen.storyboard in Resources */,
 				A1837B8625AC5A5B003A9130 /* Assets.xcassets in Resources */,
 				A1837B9E25AC6942003A9130 /* timeburnernormal.ttf in Resources */,
