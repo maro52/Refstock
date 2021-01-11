@@ -20,6 +20,8 @@
 		A1837B8E25AC5C58003A9130 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837B8D25AC5C58003A9130 /* Extension+UIView.swift */; };
 		A1837B9925AC64B0003A9130 /* FormatDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837B9825AC64B0003A9130 /* FormatDate.swift */; };
 		A1837B9E25AC6942003A9130 /* timeburnernormal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1837B9D25AC6942003A9130 /* timeburnernormal.ttf */; };
+		A1837BAD25AC9145003A9130 /* RefMemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837BAB25AC9145003A9130 /* RefMemoTableViewCell.swift */; };
+		A1837BAE25AC9145003A9130 /* RefMemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1837BAC25AC9145003A9130 /* RefMemoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		A1837B8D25AC5C58003A9130 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		A1837B9825AC64B0003A9130 /* FormatDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatDate.swift; sourceTree = "<group>"; };
 		A1837B9D25AC6942003A9130 /* timeburnernormal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = timeburnernormal.ttf; path = ../../../../../Downloads/Timeburner/timeburnernormal.ttf; sourceTree = "<group>"; };
+		A1837BAB25AC9145003A9130 /* RefMemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RefMemoTableViewCell.swift; path = Refstock/RefMemoTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		A1837BAC25AC9145003A9130 /* RefMemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RefMemoTableViewCell.xib; path = Refstock/RefMemoTableViewCell.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				A1837B9D25AC6942003A9130 /* timeburnernormal.ttf */,
 				A1837B9725AC6451003A9130 /* Data */,
 				A1837B9325AC5D02003A9130 /* Extension */,
+				A1837BAA25AC8F5C003A9130 /* Views */,
 				A1837B9225AC5CD1003A9130 /* ViewControllers */,
 				A1837B3B25AB4BA9003A9130 /* AppDelegate.swift */,
 				A1837B3D25AB4BA9003A9130 /* SceneDelegate.swift */,
@@ -165,6 +170,15 @@
 				A1837B9825AC64B0003A9130 /* FormatDate.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		A1837BAA25AC8F5C003A9130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1837BAB25AC9145003A9130 /* RefMemoTableViewCell.swift */,
+				A1837BAC25AC9145003A9130 /* RefMemoTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +287,7 @@
 				A1837B4B25AB4BAD003A9130 /* LaunchScreen.storyboard in Resources */,
 				A1837B8625AC5A5B003A9130 /* Assets.xcassets in Resources */,
 				A1837B9E25AC6942003A9130 /* timeburnernormal.ttf in Resources */,
+				A1837BAE25AC9145003A9130 /* RefMemoTableViewCell.xib in Resources */,
 				A1837B4325AB4BA9003A9130 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +316,7 @@
 				A1837B4025AB4BA9003A9130 /* ViewController.swift in Sources */,
 				A1837B9925AC64B0003A9130 /* FormatDate.swift in Sources */,
 				A1837B3C25AB4BA9003A9130 /* AppDelegate.swift in Sources */,
+				A1837BAD25AC9145003A9130 /* RefMemoTableViewCell.swift in Sources */,
 				A1837B8E25AC5C58003A9130 /* Extension+UIView.swift in Sources */,
 				A1837B4625AB4BA9003A9130 /* Refstock.xcdatamodeld in Sources */,
 				A1837B3E25AB4BA9003A9130 /* SceneDelegate.swift in Sources */,
