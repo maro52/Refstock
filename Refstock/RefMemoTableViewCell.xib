@@ -7,6 +7,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="JKG-L_3.ttf">
+            <string>JK-Gothic-L</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -27,27 +32,30 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="036-VY-G6H">
                         <rect key="frame" x="200" y="27" width="151" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" name="JK-Gothic-L" family="JK Gothic L" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoz-Ht-RJf">
-                        <rect key="frame" x="200" y="82" width="151" height="89"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoz-Ht-RJf">
+                        <rect key="frame" x="200" y="76" width="151" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="KPe-xy-eZu"/>
+                            <constraint firstAttribute="width" constant="151" id="aSP-Bx-Cej"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="JK-Gothic-L" family="JK Gothic L" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottomMargin" secondItem="eoz-Ht-RJf" secondAttribute="bottom" constant="3" id="1Fx-s4-hNw"/>
-                    <constraint firstItem="eoz-Ht-RJf" firstAttribute="leading" secondItem="EcS-SS-O8Y" secondAttribute="trailing" constant="34" id="Cks-ir-wmn"/>
                     <constraint firstItem="EcS-SS-O8Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="En8-YR-UpZ"/>
                     <constraint firstItem="036-VY-G6H" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="16" id="Loc-Tj-7ia"/>
                     <constraint firstAttribute="trailing" secondItem="EcS-SS-O8Y" secondAttribute="trailing" constant="209" id="OQS-b8-QdF"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eoz-Ht-RJf" secondAttribute="trailing" constant="8" id="OgX-b0-UGv"/>
                     <constraint firstAttribute="bottomMargin" secondItem="036-VY-G6H" secondAttribute="bottom" constant="126" id="Tu5-19-nOl"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="eoz-Ht-RJf" secondAttribute="trailing" constant="8" id="bf8-nR-aWy"/>
                     <constraint firstItem="EcS-SS-O8Y" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gHa-J6-hFq"/>
-                    <constraint firstItem="eoz-Ht-RJf" firstAttribute="top" secondItem="036-VY-G6H" secondAttribute="bottom" constant="34" id="jDJ-wd-J95"/>
+                    <constraint firstItem="eoz-Ht-RJf" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="nPL-QP-wZ5"/>
+                    <constraint firstItem="eoz-Ht-RJf" firstAttribute="leading" secondItem="EcS-SS-O8Y" secondAttribute="trailing" constant="34" id="rPF-mz-ge3"/>
                     <constraint firstAttribute="trailingMargin" secondItem="036-VY-G6H" secondAttribute="trailing" constant="8" id="uaT-4O-LcZ"/>
                     <constraint firstItem="036-VY-G6H" firstAttribute="leading" secondItem="EcS-SS-O8Y" secondAttribute="trailing" constant="34" id="z0u-Dm-p1t"/>
                 </constraints>

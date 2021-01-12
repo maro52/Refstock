@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A11323BA25AE14A6004E0FB7 /* JKG-L_3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11323B925AE14A5004E0FB7 /* JKG-L_3.ttf */; };
 		A1837B3C25AB4BA9003A9130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837B3B25AB4BA9003A9130 /* AppDelegate.swift */; };
 		A1837B3E25AB4BA9003A9130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837B3D25AB4BA9003A9130 /* SceneDelegate.swift */; };
 		A1837B4025AB4BA9003A9130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837B3F25AB4BA9003A9130 /* ViewController.swift */; };
@@ -22,7 +23,6 @@
 		A1837B9E25AC6942003A9130 /* timeburnernormal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1837B9D25AC6942003A9130 /* timeburnernormal.ttf */; };
 		A1837BAD25AC9145003A9130 /* RefMemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837BAB25AC9145003A9130 /* RefMemoTableViewCell.swift */; };
 		A1837BAE25AC9145003A9130 /* RefMemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1837BAC25AC9145003A9130 /* RefMemoTableViewCell.xib */; };
-		A1837BC225ACA984003A9130 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1837BC125ACA984003A9130 /* crayon_1-1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A11323B925AE14A5004E0FB7 /* JKG-L_3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JKG-L_3.ttf"; path = "../../../../../Downloads/jk-go-l-1.00/JKG-L_3.ttf"; sourceTree = "<group>"; };
 		A1837B3825AB4BA9003A9130 /* Refstock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refstock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1837B3B25AB4BA9003A9130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1837B3D25AB4BA9003A9130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		A1837B9D25AC6942003A9130 /* timeburnernormal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = timeburnernormal.ttf; path = ../../../../../Downloads/Timeburner/timeburnernormal.ttf; sourceTree = "<group>"; };
 		A1837BAB25AC9145003A9130 /* RefMemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RefMemoTableViewCell.swift; path = Refstock/RefMemoTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		A1837BAC25AC9145003A9130 /* RefMemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RefMemoTableViewCell.xib; path = Refstock/RefMemoTableViewCell.xib; sourceTree = SOURCE_ROOT; };
-		A1837BC125ACA984003A9130 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "crayon_1-1.ttf"; path = "../../../../../Downloads/crayonfont/crayon_1-1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 		A1837B3A25AB4BA9003A9130 /* Refstock */ = {
 			isa = PBXGroup;
 			children = (
+				A11323B925AE14A5004E0FB7 /* JKG-L_3.ttf */,
 				A1837B9D25AC6942003A9130 /* timeburnernormal.ttf */,
-				A1837BC125ACA984003A9130 /* crayon_1-1.ttf */,
 				A1837B9725AC6451003A9130 /* Data */,
 				A1837B9325AC5D02003A9130 /* Extension */,
 				A1837BAA25AC8F5C003A9130 /* Views */,
@@ -287,9 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1837BC225ACA984003A9130 /* crayon_1-1.ttf in Resources */,
 				A1837B4B25AB4BAD003A9130 /* LaunchScreen.storyboard in Resources */,
 				A1837B8625AC5A5B003A9130 /* Assets.xcassets in Resources */,
+				A11323BA25AE14A6004E0FB7 /* JKG-L_3.ttf in Resources */,
 				A1837B9E25AC6942003A9130 /* timeburnernormal.ttf in Resources */,
 				A1837BAE25AC9145003A9130 /* RefMemoTableViewCell.xib in Resources */,
 				A1837B4325AB4BA9003A9130 /* Main.storyboard in Resources */,
