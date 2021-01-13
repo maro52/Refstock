@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A11323BA25AE14A6004E0FB7 /* JKG-L_3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11323B925AE14A5004E0FB7 /* JKG-L_3.ttf */; };
+		A11323BF25AF60CB004E0FB7 /* ListEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11323BE25AF60CB004E0FB7 /* ListEditViewController.swift */; };
 		A1837B3C25AB4BA9003A9130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837B3B25AB4BA9003A9130 /* AppDelegate.swift */; };
 		A1837B3E25AB4BA9003A9130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837B3D25AB4BA9003A9130 /* SceneDelegate.swift */; };
 		A1837B4025AB4BA9003A9130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837B3F25AB4BA9003A9130 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		A11323B925AE14A5004E0FB7 /* JKG-L_3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JKG-L_3.ttf"; path = "../../../../../Downloads/jk-go-l-1.00/JKG-L_3.ttf"; sourceTree = "<group>"; };
+		A11323BE25AF60CB004E0FB7 /* ListEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEditViewController.swift; sourceTree = "<group>"; };
 		A1837B3825AB4BA9003A9130 /* Refstock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refstock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1837B3B25AB4BA9003A9130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1837B3D25AB4BA9003A9130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				A1837B7D25AC4B58003A9130 /* TopViewController.swift */,
 				A1837B3F25AB4BA9003A9130 /* ViewController.swift */,
+				A11323BE25AF60CB004E0FB7 /* ListEditViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				A1837B3C25AB4BA9003A9130 /* AppDelegate.swift in Sources */,
 				A1837BAD25AC9145003A9130 /* RefMemoTableViewCell.swift in Sources */,
 				A1837B8E25AC5C58003A9130 /* Extension+UIView.swift in Sources */,
+				A11323BF25AF60CB004E0FB7 /* ListEditViewController.swift in Sources */,
 				A1837B4625AB4BA9003A9130 /* Refstock.xcdatamodeld in Sources */,
 				A1837B3E25AB4BA9003A9130 /* SceneDelegate.swift in Sources */,
 				A1837B7E25AC4B58003A9130 /* TopViewController.swift in Sources */,

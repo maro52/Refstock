@@ -20,6 +20,7 @@ class TopViewController: UIViewController, UITableViewDataSource, UITableViewDel
                      "後少しでなくなる。今日の鍋に使用する。",
                      "賞味期限が切れたのでストック用に欲しい。",
                      "残り後ひとスプーンぐらい"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addBackground(name: "ref_back")
