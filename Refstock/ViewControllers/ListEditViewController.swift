@@ -13,5 +13,7 @@ class ListEditViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
+    @IBAction func tapCloseButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }

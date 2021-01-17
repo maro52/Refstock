@@ -11,7 +11,6 @@ class TopViewController: UIViewController, UITableViewDataSource, UITableViewDel
 
     @IBOutlet weak var todayLabel: UILabel!
     @IBOutlet weak var refTableView: UITableView!
-    // ②テーブルに表示するデータの準備
     var CountryList = ["アメリカ", "中国", "日本", "ドイツ", "イギリス"]
     let imageDatas = ["milk_bin","milk_ichigo","ponzu","shirodashi","toubanjan"]
     let titleDatas = ["牛乳","イチゴ牛乳","ポン酢","白だし","豆板醤"]
@@ -41,5 +40,9 @@ class TopViewController: UIViewController, UITableViewDataSource, UITableViewDel
         
         cell.refMemoData(count: indexPath, image: imageName, title: titleName, memo: memo)
         return cell
+    }
+    
+    @IBAction func tapListEditButton(_ sender: Any) {
+        performSegue(withIdentifier: "ListEditSegue", sender: nil)
     }
 }

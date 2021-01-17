@@ -50,7 +50,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="reg_btn"/>
                                 <connections>
-                                    <segue destination="fsC-cz-og3" kind="presentation" id="q3M-sJ-SoM"/>
+                                    <action selector="tapListEditButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3wD-jg-iXI"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="リスト登録" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHp-ge-7Ct">
@@ -67,6 +67,7 @@
                     <connections>
                         <outlet property="refTableView" destination="zQA-5f-uhA" id="iUt-eP-bHP"/>
                         <outlet property="todayLabel" destination="nff-jD-3dz" id="bma-CH-pbi"/>
+                        <segue destination="fsC-cz-og3" kind="presentation" identifier="ListEditSegue" id="eV6-cH-pST"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -76,19 +77,36 @@
         <!--List Edit View Controller-->
         <scene sceneID="BWU-uU-Wwx">
             <objects>
-                <viewController storyboardIdentifier="ListEdit" id="fsC-cz-og3" customClass="ListEditViewController" customModule="Refstock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListEdit" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="fsC-cz-og3" customClass="ListEditViewController" customModule="Refstock" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F6H-v6-sgl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qf3-8d-TFq">
                                 <rect key="frame" x="28" y="48" width="319" height="570"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="og8-26-Jbn">
+                                        <rect key="frame" x="14" y="497" width="291" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="reg_btn"/>
+                                        <connections>
+                                            <action selector="tapCloseButton:" destination="fsC-cz-og3" eventType="touchUpInside" id="cI1-O4-jy4"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="閉じる" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzF-ZV-Wx6">
+                                        <rect key="frame" x="105" y="520" width="108" height="17"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="JK-Gothic-L" family="JK Gothic L" pointSize="19"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="r8a-U9-BN4"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.17307898116438356" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.19846960616438356" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lvk-Pm-zvn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
