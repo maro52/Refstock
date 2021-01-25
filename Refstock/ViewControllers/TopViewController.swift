@@ -11,7 +11,6 @@ class TopViewController: UIViewController, UITableViewDataSource, UITableViewDel
 
     @IBOutlet weak var todayLabel: UILabel!
     @IBOutlet weak var refTableView: UITableView!
-    var CountryList = ["アメリカ", "中国", "日本", "ドイツ", "イギリス"]
     let imageDatas = ["milk_bin","milk_ichigo","ponzu","shirodashi","toubanjan"]
     let titleDatas = ["牛乳","イチゴ牛乳","ポン酢","白だし","豆板醤"]
     let memoDatas = ["グラタン作るので一本欲しいところ。",
